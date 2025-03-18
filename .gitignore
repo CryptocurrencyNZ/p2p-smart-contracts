@@ -1,0 +1,43 @@
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Ignore Hardhat & Foundry build files
+cache/
+artifacts/
+out/
+forge-out/
+
+# Ignore Truffle build files
+build/
+contracts/*.abi
+contracts/*.bin
+
+# Ignore VSCode settings
+.vscode/
+*.code-workspace
+
+# Ignore environment variables
+.env
+.env.local
+.env.*.local
+
+# Ignore coverage reports
+coverage/
+coverage.json
+*.lcov
+
+# Ignore Hardhat-specific files
+*.tsbuildinfo
+typechain/
+typechain-types/
+
+# Ignore Foundry-specific files
+foundry.toml
+lib/
+remappings.txt
+
+# Ignore Ethereum Virtual Machine
